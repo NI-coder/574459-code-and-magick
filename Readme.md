@@ -1,7 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
 * Студент: [Николаев Игорь](https://up.htmlacademy.ru/javascript/16/user/574459).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Балесный](https://up.htmlacademy.ru/javascript/16/user/221665).
 
 ---
 
