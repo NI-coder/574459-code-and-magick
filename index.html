@@ -192,10 +192,11 @@
   var wizardSpeed = 3;
   var wizardWidth = 70;
 
-  var getWizardHeight = function(wizardWidth) {
-    var wizardHeight = 1.337 * wizardWidth;
+  var getWizardHeight = function(characterWidth) {
+    var wizardHeight = 1.337 * characterWidth;
     return wizardHeight;
   };
+  var wizardHeight = getWizardHeight(wizardWidth);
 
   var getWizardX = function(width) {
     var wizardPositionX = (width - wizardWidth) / 2;
@@ -205,10 +206,11 @@
   var getWizardY = function(height) {
 //высота рассчитывается от верха поля, поэтому 2/3 от низа = 1/3 от верха,
 //и учитываю высоту самого волшебника
-    var wizardPositionY = height / 3 - getWizardHeight(wizardWidth);
+    var wizardPositionY = height / 3 - wizardHeight;
     return wizardPositionY;
   };
 </script>
+<script src="js/stat.js"></script>
 <script src="js/game.js"></script>
 
 </body>
